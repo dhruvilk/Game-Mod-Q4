@@ -1,0 +1,238 @@
+entityDef viewStyle_shouldered_chain {
+	"viewoffset"				"-6.75 2.5 1.5"
+	"viewangles"				"-1.6 2 6.2"
+}
+
+entityDef viewStyle_q3_chain {
+	"viewoffset"				"-5.4 0.6 1.5"
+  	"viewangles"				"-1.6 2.5 6.2"
+}
+
+//--------------------------------------------------------------------------------------------------------------------
+// Weapon Definition
+//--------------------------------------------------------------------------------------------------------------------
+
+entityDef weapon_chain
+{
+	"editor_menu"				"pickup"
+	"editor_color"				".3 .3 1"
+	"editor_mins"				"-16 -16 0"
+	"editor_maxs"				"16 16 32"
+
+	"editor_usage"				"Chaingun"
+
+	"spawnclass"				"idItem"
+	"weaponclass"				"rvWeaponNailgun"
+	"size"					"32 32 32"
+  	"model_view"				"weapon_chain_view"
+  	"model_view_strogg"			"weapon_chain_view_strogg"
+  	"model_world"				"weapon_hyperblaster_world"
+	"model"					"models/weapons/machinegun/w_mg_lo.lwo"
+	"def_dropItem"				"weapon_chain"
+	
+	"def_hitscan"				"hitscan_walker_bullet"
+	"joint_attach"				"HB_ATTACHER"
+	"joint_view_guiLight"			""
+	"joint_view_flash"			"barrel"
+	"joint_world_flash"			""
+	//"joint_view_battery"			"eject"
+
+	"mtr_crosshair"				"gfx/guis/crosshairs/crosshair_blaster"
+	"crosshairOffsetX"			"0"
+	"crosshairOffsetY"			"0"
+
+	"fireRate"					".04"
+	"spread"					"2"
+	"spread_mp"					"2"
+
+	"inv_weapon"				"weapon_chain"
+	"inv_item"					"1"
+	
+	"inv_name"					"Chaingun"	
+
+	"weaponname"				"Chaingun"
+	"ammoType"					"ammo_machinegun"
+	"inv_start_ammo_machinegun"		"50"
+	"ammoRegenStep"				"5"
+	"ammoRegenTime"				"1500"
+	"clipSize"					"0"									// large for smooth regen
+	"ammoRequired"				"1"										// ammo is handled in the script file
+	"gui"						"guis/weapons/hyperblaster_ammo.gui"
+	"mtr_icon"					"gfx/guis/hud/icons/gun_machinegun"
+	"inv_icon"					"gfx/guis/hud/icons/item_machinegun.tga"
+	"muzzle_kick_time"			"0.1"
+	"muzzle_kick_maxtime"		"0.15"
+	"muzzle_kick_angles"		"-1 0 0"
+	"muzzle_kick_offset"		"1 .15 0"
+
+	"recoilTime"				"100"
+	"recoilAngles"				"1 0 0"
+	
+	"mtr_flashShader"			"lights/muzzleflash"
+	"flashColor"				"0.7 0.8 1"
+	"flashRadius"				"200"
+	"flashPointLight"			"1"
+	"flashTime"					".1"
+	"flashViewOffset"			"15 -2 5"
+
+	"mtr_guiLightShader"		"lights/viewWeaponGuiLight"
+	"glightRadius"				"1.3"
+	"glightOffset"				"0 2 0"
+
+	"snd_quaddamage"			"weapon_quaddamage_fire"
+	"snd_acquire"				"pickup_weapon"
+	"snd_battery_spinup"		"weapon_hyperblaster_spinup"
+	"snd_battery_spindown"		"weapon_hyperblaster_spindown"
+	"snd_battery_spin"			"weapon_hyperblaster_spinfast"
+	"snd_noAmmo"				"weapon_hyperblaster_dryfire"
+
+ 	"fx_muzzleflash"			"effects/weapons/machinegun/muzzleflash.fx"
+  	"fx_muzzleflash_world"		        "effects/weapons/machinegun/muzzleflash.fx"
+	"fx_respawn"				"effects/mp/itemrespawn.fx"
+
+	"def_viewStyle"				"viewStyle_q3_chain"
+	"def_viewStyle1"			"viewStyle_shouldered_chain"
+	
+	"weaponAngleOffsetAverages" "10"
+	"weaponAngleOffsetScale" 	".05"
+	"weaponAngleOffsetMax"		"1"
+	"weaponOffsetTime"			"600"
+	"weaponOffsetScale"			"0.001"
+
+//	"launchFromBarrel"			"1"
+	"foreshorten"				".65"
+	"hidesurface"				"models/weapons/hyperblaster/battery1"
+
+	"net_syncPhysics"			"1"
+
+	"joint_view_drum"			"spinner"
+	"joint_view_pins"			"spinner"
+	"joint_view_steamRight"			"spinner"
+	"joint_view_steamLeft"			"spinner"
+	//"drumSpeed"				".8"
+	"drumSpeed"				"2.2"
+	"snd_spinfast"				""
+	"snd_spinslow"				""
+	"snd_spinup"				"sound/wind_up.wav"
+	"snd_spindown"				"sound/wind_down.wav"
+	"snd_fire"				"vehicle_walker_machinegun"
+	"snd_fireStereo"			"weapon_shotgun_fire_stereo"
+}
+
+entityDef weapon_chain_mp
+{
+	"inherit"				"weapon_chain"
+	"clipsize"				"0"
+	"editor_ignore"				"1"
+	"inv_icon"				"gfx/guis/hud/icons/item_hyperblaster_colored"
+	"triggerSize"				"32"
+	
+	"muzzle_kick_time"			"0"
+	"muzzle_kick_maxtime"			"0"
+	"muzzle_kick_angles"			"0 0 0"
+	"muzzle_kick_offset"			"0 0 0"
+	"recoilTime"				"0"
+	"recoilAngles"				"0 0 0"
+	
+	"respawn_Team DM"			"30"
+	"respawn_Tourney"			"15"
+
+}
+
+entityDef moveable_item_chain
+{
+	"inherit"					"weapon_chain"
+
+	"editor_rotatable"			"1"
+	
+	"itemclipmodel"					"models/weapons/machinegun/w_mg_lo_clip.lwo"
+
+	"spawnclass"				"idMoveableItem"
+	"mass"					"3000"
+	"density"					"0.05"
+	"friction"					"0.2"
+	"bouncyness"				"0"
+}
+
+
+model weapon_chain_view
+{
+	mesh						models/md5/weapons/chaingun_view/viewchaingun.md5mesh
+	//offset					( 50.5 -10 -18 )
+	offset						( 5.2 -4.5 -8.0 )
+	anim idle 					models/md5/weapons/chaingun_view/idle.md5anim
+	{
+		//rate	1.4
+	}
+	anim spinup					models/md5/weapons/chaingun_view/windup.md5anim
+	{
+		rate	1.4
+	}
+	anim spindown					models/md5/weapons/chaingun_view/winddown.md5anim
+	anim raise					models/md5/weapons/chaingun_view/raise.md5anim
+	anim reload					models/md5/weapons/chaingun_view/reload.md5anim
+	anim putaway					models/md5/weapons/chaingun_view/lower.md5anim
+	anim fire_slow					models/md5/weapons/chaingun_view/fire.md5anim
+	{
+	}
+	anim fire_fast					models/md5/weapons/chaingun_view/fire.md5anim
+	{	frame 1					sound_weapon	q2_chain_fire
+		frame 1					sound_item	weapon_shotgun_fire_stereo
+	}
+}
+
+model weapon_chain_view_strogg
+{
+	inherit				weapon_chain_view
+	mesh				models/md5/weapons/chaingun_view/viewchaingun.md5mesh
+}
+
+
+
+
+
+
+
+
+entityDef hitscan_bullet_chain
+{
+	"range"						"40000"
+
+	"fx_impact"				"effects/weapons/machinegun/impact_default.fx"
+	"fx_impact_water"			"effects/ambient/splash_smll.fx"
+	"fx_impact_concrete"			"effects/weapons/machinegun/impact_concrete.fx"
+	"fx_impact_rock"			"effects/weapons/machinegun/impact_concrete.fx"
+	"fx_impact_electronics"			"effects/weapons/machinegun/impact_electronics.fx"
+	"fx_impact_flesh"			"effects/weapons/machinegun/impact_fleshx.fx"						
+	"fx_impact_glass"			"effects/weapons/machinegun/impact_glass.fx"
+	"fx_impact_monstermetal"		"effects/weapons/machinegun/impact_monstermetal.fx"
+	"fx_impact_bpglass"			"effects/weapons/machinegun/impact_bpglass.fx"
+	"fx_impact_mp"				"effects/weapons/machinegun/impact_default_mp.fx"
+	"fx_impact_concrete_mp"			"effects/weapons/machinegun/impact_default_mp.fx"
+	"fx_impact_rock_mp"			"effects/weapons/machinegun/impact_default_mp.fx"
+	"fx_impact_glass_mp"			"effects/weapons/machinegun/impact_default_mp.fx"
+	"fx_impact_bpglass_mp"			"effects/weapons/machinegun/impact_default_mp.fx"
+	"fx_impact_electronics_mp"		"effects/weapons/machinegun/impact_default_mp.fx"
+	
+	"def_damage"				"damage_machinegun_chain"
+	"def_damage_flesh"			"damage_machinegun_flesh_chain"
+		
+	"push"						"7500"
+}
+
+entityDef damage_machinegun_chain
+{
+	"inherit"					"damage_bullet"
+	"damage"					"20"
+	"damage_flesh"					"20"
+	"GIB"						"1"
+	"deathPush"					"100"
+	"deathPushMin"				"3000 350"
+	"deathPushMax"				"5000 500"
+}
+
+entityDef damage_machinegun_flesh_chain
+{
+	"inherit"					"damage_machinegun"
+	"damage"					"20"
+}
