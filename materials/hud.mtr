@@ -1,0 +1,442 @@
+//----------------------------------
+//	MP ICONS
+//----------------------------------
+
+guide gfx/guis/hud/icons/teammate_health icon_shader_colored( item_health, 1, 1, 0 )
+guide gfx/guis/hud/icons/teammate_armor icon_shader_colored( item_armor, 1, 0, 0 )
+guide gfx/guis/hud/icons/kill_self icon_shader_colored( kill_self, 1, 1, 1 )
+guide gfx/guis/hud/icons/kill_telefrag icon_shader_colored( kill_telefrag, 0, 1, 0.65 )
+
+guide gfx/guis/hud/icons/item_quadkill_colored icon_shader_colored( item_quadkill, 1, 1, 1 )
+
+guide gfx/guis/hud/icons/item_machinegun_colored icon_shader_colored( item_machinegun, 1, 1, 0 )
+guide gfx/guis/hud/icons/item_nailgun_colored icon_shader_colored( item_nailgun, 0.6, 0.8, 0.8 )
+guide gfx/guis/hud/icons/item_railgun_colored icon_shader_colored( item_railgun, 0, 1, 0 )
+guide gfx/guis/hud/icons/item_shotgun_colored icon_shader_colored( item_shotgun, 1, 0.5, 0 )
+guide gfx/guis/hud/icons/item_hyperblaster_colored icon_shader_colored( item_hyperblaster, 0, 0.45, 1 )
+guide gfx/guis/hud/icons/item_rocket_colored icon_shader_colored( item_rocket, 1, 0.2, 0 )
+guide gfx/guis/hud/icons/item_grenade_colored icon_shader_colored( item_grenade, 0.2, 0.56, 0.07 )
+guide gfx/guis/hud/icons/item_lightning_colored icon_shader_colored( item_lightning, 1, 1, 0.73 )
+guide gfx/guis/hud/icons/item_darkmatter_colored icon_shader_colored( item_darkmatter, 0.77, 0, 1 )
+guide gfx/guis/hud/icons/item_gauntlet_colored icon_shader_colored( item_gauntlet, 0, 0.85, 1 )
+
+guide gfx/guis/hud/icons/ammo_machinegun_colored icon_shader_colored( ammo_machinegun, 1, 1, 0 )
+guide gfx/guis/hud/icons/ammo_nailgun_colored icon_shader_colored( ammo_nailgun, 0.6, 0.8, 0.8 )
+guide gfx/guis/hud/icons/ammo_railgun_colored icon_shader_colored( ammo_railgun, 0, 1, 0 )
+guide gfx/guis/hud/icons/ammo_shotgun_colored icon_shader_colored( ammo_shotgun, 1, 0.5, 0 )
+guide gfx/guis/hud/icons/ammo_hyperblaster_colored icon_shader_colored( ammo_hyperblaster, 0, 0.45, 1 )
+guide gfx/guis/hud/icons/ammo_rocket_colored icon_shader_colored( ammo_rocket, 1, 0.2, 0 )
+guide gfx/guis/hud/icons/ammo_grenade_colored icon_shader_colored( ammo_grenade, 0.2, 0.56, 0.07 )
+guide gfx/guis/hud/icons/ammo_lightning_colored icon_shader_colored( ammo_lightning, 1, 1, 0.73 )
+guide gfx/guis/hud/icons/ammo_darkmatter_colored icon_shader_colored( ammo_darkmatter, 0.77, 0, 1 )
+
+//----------------------------------
+
+guide gfx/guis/hud/icons/item_healthshard_colored icon_health_shader( item_health, 0.5, 1, 0.5 )
+guide gfx/guis/hud/icons/item_healthsmall_colored icon_health_shader( item_health, 1, 1, 0.2 )
+guide gfx/guis/hud/icons/item_healthlarge_colored icon_health_shader( item_health, 1, 0.5, 0 )
+guide gfx/guis/hud/icons/item_healthmega_colored icon_health_shader( item_health, 0, 0.5, 1 )
+guide gfx/guis/hud/icons/item_armorshard_colored icon_health_shader( item_armorshard, 0, 0.5, 1 )
+guide gfx/guis/hud/icons/item_armorsmall_colored icon_health_shader( item_armor, 1, 1, 0 )
+guide gfx/guis/hud/icons/item_armorlarge_colored icon_health_shader( item_armor, 1, 0, 0 )
+
+//----------------------------------
+
+guide gfx/guis/hud/icons/item_guard icon_powerup_shader( item_guard )
+guide gfx/guis/hud/icons/item_scout icon_powerup_shader( item_scout )
+guide gfx/guis/hud/icons/item_doubler icon_powerup_shader( item_doubler )
+guide gfx/guis/hud/icons/item_ammoregen icon_powerup_shader( item_ammoregen )
+guide gfx/guis/hud/icons/item_invis icon_powerup_shader( item_invis )
+guide gfx/guis/hud/icons/item_quaddamage icon_powerup_shader( item_quaddamage )
+guide gfx/guis/hud/icons/item_haste icon_powerup_shader( item_haste )
+guide gfx/guis/hud/icons/item_regen icon_powerup_shader( item_regen )
+
+//----------------------------------
+//	MP ICONS - SIMPLEITEMS
+//----------------------------------
+
+guide simpleicons/item_machinegun_colored icon_simple_colored( simpleicons/item_machinegun, 1, 1, 0 )
+guide simpleicons/item_nailgun_colored icon_simple_colored( simpleicons/item_nailgun, 0.6, 0.8, 0.8 )
+guide simpleicons/item_railgun_colored icon_simple_colored( simpleicons/item_railgun, 0, 1, 0 )
+guide simpleicons/item_shotgun_colored icon_simple_colored( simpleicons/item_shotgun, 1, 0.5, 0 )
+guide simpleicons/item_hyperblaster_colored icon_simple_colored( simpleicons/item_hyperblaster, 0, 0.45, 1 )
+guide simpleicons/item_rocket_colored icon_simple_colored( simpleicons/item_rocket, 1, 0.2, 0 )
+guide simpleicons/item_grenade_colored icon_simple_colored( simpleicons/item_grenade, 0.2, 0.56, 0.07 )
+guide simpleicons/item_lightning_colored icon_simple_colored( simpleicons/item_lightning, 1, 1, 0.73 )
+guide simpleicons/item_darkmatter_colored icon_simple_colored( simpleicons/item_darkmatter, 0.77, 0, 1 )
+guide simpleicons/item_gauntlet_colored icon_simple_colored( simpleicons/item_gauntlet, 0, 0.85, 1 )
+
+guide simpleicons/ammo_machinegun_colored icon_simple_colored( simpleicons/ammo_machinegun, 1, 1, 0 )
+guide simpleicons/ammo_nailgun_colored icon_simple_colored( simpleicons/ammo_nailgun, 0.6, 0.8, 0.8 )
+guide simpleicons/ammo_railgun_colored icon_simple_colored( simpleicons/ammo_railgun, 0, 1, 0 )
+guide simpleicons/ammo_shotgun_colored icon_simple_colored( simpleicons/ammo_shotgun, 1, 0.5, 0 )
+guide simpleicons/ammo_hyperblaster_colored icon_simple_colored( simpleicons/ammo_hyperblaster, 0, 0.45, 1 )
+guide simpleicons/ammo_rocket_colored icon_simple_colored( simpleicons/ammo_rocket, 1, 0.2, 0 )
+guide simpleicons/ammo_grenade_colored icon_simple_colored( simpleicons/ammo_grenade, 0.2, 0.56, 0.07 )
+guide simpleicons/ammo_lightning_colored icon_simple_colored( simpleicons/ammo_lightning, 1, 1, 0.73 )
+guide simpleicons/ammo_darkmatter_colored icon_simple_colored( simpleicons/ammo_darkmatter, 0.77, 0, 1 )
+
+//----------------------------------
+
+guide simpleicons/item_healthshard_colored icon_simple_colored( simpleicons/item_health, 0.5, 1, 0.5 )
+guide simpleicons/item_healthsmall_colored icon_simple_colored( simpleicons/item_health, 1, 1, 0.2 )
+guide simpleicons/item_healthlarge_colored icon_simple_colored( simpleicons/item_health, 1, 0.5, 0 )
+guide simpleicons/item_healthmega_colored icon_simple_colored( simpleicons/item_health, 0, 0.5, 1 )
+guide simpleicons/item_armorshard_colored icon_simple_colored( simpleicons/item_armorshard, 0, 0.5, 1 )
+guide simpleicons/item_armorsmall_colored icon_simple_colored( simpleicons/item_armor, 1, 1, 0 )
+guide simpleicons/item_armorlarge_colored icon_simple_colored( simpleicons/item_armor, 1, 0, 0 )
+
+//----------------------------------
+//	GUN ICONS
+//----------------------------------
+
+guide gfx/guis/hud/icons/gun_blaster icon_gun_shader( gun_blaster )
+guide gfx/guis/hud/icons/gun_darkmatter icon_gun_shader( gun_darkmatter )
+guide gfx/guis/hud/icons/gun_gauntlet icon_gun_shader( gun_gauntlet )
+guide gfx/guis/hud/icons/gun_grenadelauncher icon_gun_shader( gun_grenadelauncher )
+guide gfx/guis/hud/icons/gun_hyperblaster icon_gun_shader( gun_hyperblaster )
+guide gfx/guis/hud/icons/gun_lightninggun icon_gun_shader( gun_lightninggun )
+guide gfx/guis/hud/icons/gun_machinegun icon_gun_shader( gun_machinegun )
+guide gfx/guis/hud/icons/gun_nailgun icon_gun_shader( gun_nailgun )
+guide gfx/guis/hud/icons/gun_railgun icon_gun_shader( gun_railgun )
+guide gfx/guis/hud/icons/gun_rocketlauncher icon_gun_shader( gun_rocketlauncher )
+guide gfx/guis/hud/icons/gun_shotgun icon_gun_shader( gun_shotgun )
+
+//----------------------------------
+
+gfx/guis/hud/chat
+{	
+	noShadows
+	translucent
+	
+	{
+		blend add
+		Map   gfx/guis/hud/chat.tga
+		colored
+	}
+}
+
+gfx/guis/hud/backbar_add
+{	
+	noShadows
+	translucent
+	
+	{
+		blend add
+		Map   gfx/guis/hud/backbar_add.tga
+		colored
+	}
+}
+
+gfx/guis/hud/s_backbar_add
+{	
+	noShadows
+	translucent
+	
+	{
+		blend add
+		Map   gfx/guis/hud/s_backbar_add.tga
+		colored
+	}
+}
+
+//----------------------------------
+
+gfx/guis/hud/veh_turret
+{	
+	noShadows
+	translucent
+	
+	{
+	    blend add
+		Map   gfx/guis/hud/veh_turret.tga
+		colored
+	}
+}
+
+gfx/guis/hud/mp_waveform
+{	
+	noShadows
+	translucent
+	
+	{
+	    blend add
+		Map   gfx/guis/hud/waveform.tga
+		colored
+		centerscale	1, wavTable[time * 0.6]
+		scroll time * .6, 0
+		scale 1, 1
+	}
+}
+
+gfx/guis/hud/s_compobjstatic
+{	
+	noShadows
+	translucent
+	
+	{	
+		maskcolor				
+	    map	makealpha(gfx/guis/hud/s_compobjmask.tga)
+	}	
+
+	{
+	    blend GL_DST_ALPHA, GL_ONE
+	    maskAlpha
+	    colored
+		map gfx/guis/hud/s_static.tga
+		scale	1, guitable_10_5[time * 0.5]
+		scroll time * -.5, time * 2
+	}
+}
+
+gfx/guis/hud/s_objstatic
+{	
+	noShadows
+	translucent
+	
+	{	
+		maskcolor				
+	    map	makealpha(gfx/guis/hud/s_objmask.tga)
+	}	
+
+	{
+	    blend GL_DST_ALPHA, GL_ONE
+	    maskAlpha
+	    colored
+		map gfx/guis/hud/s_static.tga
+		scale	1, guitable_10_5[time * 0.5]
+		scroll time * -.5, time * 2
+	}
+}
+
+gfx/guis/hud/s_hudstatic
+{	
+	noShadows
+	translucent
+	
+	{	
+		maskcolor				
+	    map	makealpha(gfx/guis/hud/s_ekg_mask.tga)
+	}	
+
+	{
+	    blend GL_DST_ALPHA, GL_ONE
+	    maskAlpha
+	    colored
+		map gfx/guis/hud/s_static.tga
+		scale	1, guitable_10_5[time * 0.5]
+		scroll time * -.5, time * 2
+	}
+}
+
+gfx/guis/hud/s_waveform
+{	
+	noShadows
+	translucent
+	
+	{	
+		maskcolor				
+	    map	makealpha(gfx/guis/hud/s_waveform_mask.tga)
+	}	
+	
+	{
+	    blend GL_DST_ALPHA, GL_ONE
+	    maskalpha
+		Map   gfx/guis/hud/waveform.tga
+		colored
+		centerscale	1, wavTable[time * 0.6]
+		scroll time * .6, 0
+		scale 1, 1
+	}
+}
+
+gfx/guis/hud/s_ekg
+{	
+	noShadows
+	translucent
+	
+	{	
+		maskcolor				
+	    map	makealpha(gfx/guis/hud/s_ekg_mask.tga)
+	}
+	
+	{
+	    blend GL_DST_ALPHA, gl_one
+	    maskalpha
+		Map gfx/guis/hud/s_ekg.tga
+		scroll time * -.2, 0
+		colored
+	}
+	
+		{
+	    blend GL_DST_ALPHA, gl_one
+	    maskalpha
+		Map gfx/guis/hud/s_ekg2.tga
+		scroll time * -.38, 0
+		colored
+	}
+}
+
+gfx/guis/hud/waveform
+{	
+	noShadows
+	translucent
+	
+	{	
+		maskcolor				
+	    map	makealpha(gfx/guis/hud/waveform_mask.tga)
+	}	
+	
+	{
+	    blend GL_DST_ALPHA, GL_ONE
+	    maskalpha
+		Map   gfx/guis/hud/waveform.tga
+		colored
+		centerscale	1, wavTable[time * 0.6]
+		scroll time * .6, 0
+		scale 1, 1
+	}
+}
+
+gfx/guis/hud/ekg
+{	
+	noShadows
+	translucent
+	
+	{	
+		maskcolor				
+	    map	makealpha(gfx/guis/hud/ekg_mask.tga)
+	}
+	
+	{
+	    blend GL_DST_ALPHA, gl_one
+	    maskalpha
+		Map gfx/guis/hud/ekg.tga
+		scroll time * -.2, 0
+		colored
+	}
+}
+
+gfx/guis/hud/glow_edge
+{	
+	noShadows
+	translucent
+	{
+		blend add
+		Map gfx/guis/hud/glow_edge.tga
+		colored
+		clamp
+	}
+}
+
+gfx/guis/hud/glow_mid
+{	
+	noShadows
+	translucent
+	{
+		blend add
+		Map gfx/guis/hud/glow_mid.tga
+		colored
+		clamp
+	}
+}
+
+//----------------------------------
+//	MGUN SCOPE
+//----------------------------------
+
+
+gfx/guis/hud/reticles/mgun_scope_glow
+{	
+	noShadows
+	translucent
+	{
+		blend add
+		Map gfx/guis/hud/reticles/mgun_scope_glow.tga
+		colored
+		clamp
+	}
+}
+
+//----------------------------------
+//	RAILGUN SCOPE
+//----------------------------------
+
+
+gfx/guis/hud/reticles/railgun_scope_glow
+{	
+	noShadows
+	translucent
+	{
+		blend add
+		Map gfx/guis/hud/reticles/railgun_scope_glow.tga
+		colored
+		clamp
+	}
+}
+
+//----------------------------------
+//	NAILGUN SCOPE
+//----------------------------------
+
+gfx/guis/hud/reticles/nailgun_scope_glow
+{	
+	noShadows
+	translucent
+	{
+		blend add
+		Map gfx/guis/hud/reticles/nailgun_scope_glow.tga
+		colored
+		clamp
+	}
+}
+
+gfx/guis/hud/reticles/nailgun_scope_ring1
+{	
+	noShadows
+	translucent
+	{
+		blend add
+		Map gfx/guis/hud/reticles/nailgun_scope_ring1.tga
+		colored
+		clamp
+	}
+}
+
+gfx/guis/hud/reticles/nailgun_scope_ring1arrow
+{	
+	noShadows
+//	translucent
+	{
+		blend add
+		Map gfx/guis/hud/reticles/nailgun_scope_ring1arrow.tga
+		red Parm0 * Parm3
+		green Parm1 * Parm3
+		blue Parm2 * Parm3
+		clamp
+	}
+}
+
+gfx/guis/hud/reticles/nailgun_scope_lock
+{	
+	noShadows
+	translucent
+	{
+		blend add
+		Map gfx/guis/hud/reticles/nailgun_scope_lock.tga
+		vertexcolor
+		clamp
+	}
+}
+
+gfx/guis/hud/reticles/nailgun_scope_line
+{	
+	noShadows
+	translucent
+	{
+		blend add
+		Map gfx/guis/hud/reticles/nailgun_scope_line.tga
+		colored
+		clamp
+	}
+}
