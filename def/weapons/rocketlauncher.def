@@ -73,7 +73,7 @@ entityDef weapon_rocketlauncher
 	"inv_start_ammo_rocketlauncher"	"15"
 	"inv_item"					"1"
 	"inv_icon"					"gfx/guis/hud/icons/item_rocket.tga"
-	"inv_name"					"#str_107409"	
+	"inv_name"					"Rocket Blast Spell"	
 
 	"fireRate"					"1" // was 0.8 doron
 	"reloadRate"				".8"

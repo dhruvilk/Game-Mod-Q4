@@ -695,10 +695,10 @@ entityDef player_marine
 	"weapon"						"weapon_blaster"
 	"current_weapon"					"0"
 
-	"pm_jumpheight"						"48"
+	"pm_jumpheight"						"50"
 	"pm_stepsize"						"16"
-	"pm_speed"						"160"  	//DOOM speed was 140
-	"pm_walkspeed"						"80"
+	"pm_speed"						"180"  	//DOOM speed was 140
+	"pm_walkspeed"						"90"
 	"pm_crouchspeed"					"80"
 	"pm_noclipspeed"					"270"	
 	"pm_minviewpitch"					"-89"	// looking up

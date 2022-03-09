@@ -71,7 +71,7 @@ entityDef weapon_napalmgun
 	"inv_start_ammo_napalmgun"	"10"
 	"inv_item"					"1"
 	"inv_icon"					"gfx/guis/hud/icons/item_fire.tga"
-	"inv_name"					"Napalm Launcher"	
+	"inv_name"					"Jigoku Burst"	
 
 	"fireRate"					".4"
 //	"reloadRate"				".1"

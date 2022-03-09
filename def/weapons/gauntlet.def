@@ -82,7 +82,7 @@ entityDef weapon_gauntlet
 	"inv_icon"					"gfx/guis/hud/icons/item_gauntlet_colored"
 	"mtr_simple_icon"					"simpleicons/item_gauntlet_colored"
 	"simple_icon_scale"			"32.0"
-	"inv_name"					"#str_107402"
+	"inv_name"					"Gauntlet Blade"
 
 	"clipSize"					"0"
 	"ammoRequired"				"0"

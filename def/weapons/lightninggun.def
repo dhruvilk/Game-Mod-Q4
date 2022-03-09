@@ -79,7 +79,7 @@ entityDef weapon_lightninggun
 	"inv_start_ammo_lightninggun"		"500" // was 100 doron
 	"inv_item"							"1"
 	"inv_icon"							"gfx/guis/hud/icons/item_lightning.tga"
-	"inv_name"							"#str_107405"
+	"inv_name"							"Lightning Spell"
 
 	"mtr_crosshair"				"gfx/guis/crosshairs/crosshair_lightninggun"
 	"ammoType"					"ammo_lightninggun"
@@ -107,7 +107,7 @@ entityDef weapon_lightninggun
 	"foreshorten"				".6"
 
 	"mtr_flashShader"			"lights/muzzleflash"
-	"flashColor"				".5 .8 1"
+	"flashColor"				".8 .8 1"
 	"flashRadius"				"200"
 	"flashPointLight"			"1"
 	"flashTime"					".1"
@@ -177,8 +177,8 @@ entityDef weapon_lightninggun_mp
 	"simple_icon_scale"			"32.0"
 	"triggerSize"				"32"
 
-	"range"					"736"	// q3a value is 768
-	"fireRate"				"0.04"
+	"range"					"768"	// q3a value is 768
+	"fireRate"				"0.4"
 	"fx_trail_noimpact"			"effects/weapons/lightninggun/trail_noimpact.fx"	
 	
 	"muzzle_kick_time"			"0"
@@ -209,7 +209,7 @@ entityDef wpmod_lightninggun_chain
 
 entityDef weaponmod_lightninggun_chain
 {
-	"editor_color"				".3 .3 1"
+	"editor_color"				".6 .3 1"
 	"editor_mins"				"-16 -16 0"
 	"editor_maxs"				"16 16 32"
 	"editor_menu"				"pickup"
@@ -221,7 +221,7 @@ entityDef weaponmod_lightninggun_chain
 	"inv_ammo_lightninggun"		"1000" // was 200 or 500 doron
 	"inv_item"					"1"
 	"inv_icon"					"gfx/guis/hud/icons/item_lightning.tga"
-	"inv_name"					"#str_107434"
+	"inv_name"					"Lightning Spell"
 	"model"						"models/items/ammo/ammo_box.lwo"
 
 	"net_syncPhysics"			"1"

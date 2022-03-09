@@ -87,7 +87,7 @@ entityDef weapon_shotgun
 	"inv_start_ammo_shotgun"		"8" // was 10 doron
 	"inv_item"				"1"
 	"inv_icon"				"gfx/guis/hud/icons/item_shotgun.tga"
-	"inv_name"				"#str_107410"
+	"inv_name"				"Burst Shot"
 
 	"weaponname"				"Shotgun"
 	"def_hitscan"				"hitscan_shotgun_pellet"
@@ -297,7 +297,7 @@ entityDef weaponmod_shotgun_ammo
 	"inv_ammo_shotgun"			"32"
 	"inv_item"					"1"
 	"inv_icon"					"gfx/guis/hud/icons/item_shotgun.tga"
-	"inv_name"					"#str_107431"
+	"inv_name"					"Burst Shot"
 	"model"						"models/items/ammo/ammo_box.lwo"
 }
 

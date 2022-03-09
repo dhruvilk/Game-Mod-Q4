@@ -91,7 +91,7 @@ entityDef weapon_railgun
 	"inv_start_ammo_railgun"		"25" // was 10 doron
 	"inv_item"				"1"
 	"inv_icon"				"gfx/guis/hud/icons/item_railgun"
-	"inv_name"				"#str_107408"
+	"inv_name"				"Keyblade 2"
 	
 	"def_hitscan"				"hitscan_railgun"	
 	"mtr_crosshair"				"gfx/guis/crosshairs/crosshair_railgun"

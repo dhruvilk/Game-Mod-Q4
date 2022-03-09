@@ -64,7 +64,7 @@ entityDef weapon_blaster
 
 	"spawnclass"				"idItem"
 	"weaponclass"				"rvWeaponBlaster"
-	"weaponname"				"Blaster"
+	"weaponname"				"Keyblade 1"
 	"size"						"32 32 32"
 
   	"model_view"				"weapon_blaster_view"
@@ -95,7 +95,7 @@ entityDef weapon_blaster
 	"inv_weapon"				"weapon_blaster"
 	"inv_item"					"5"
 	"inv_icon"					"gfx/guis/hud/icons/item_blaster.tga"
-	"inv_name"					"#str_107400"
+	"inv_name"					"Keyblade 1"
 
 //	"gui"						"guis/weapons/blaster_ammo.gui"
 	"mtr_icon"					"gfx/guis/hud/icons/gun_blaster"

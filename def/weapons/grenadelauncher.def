@@ -84,7 +84,7 @@ entityDef weapon_grenadelauncher
 	"inv_start_ammo_grenadelauncher"	"20"
 	"inv_item"					"1"
 	"inv_icon"					"gfx/guis/hud/icons/item_grenade.tga"
-	"inv_name"					"#str_107403"	
+	"inv_name"					"Keyblade 5"	
 
 	"weaponname"				"Grenade Launcher"
 	"def_projectile"			"projectile_grenade"

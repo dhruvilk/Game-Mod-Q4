@@ -116,7 +116,7 @@ entityDef weapon_nailgun
 	"inv_start_ammo_nailgun"			"100"
 	"inv_item"					"1"
 	"inv_icon"					"gfx/guis/hud/icons/item_nailgun"
-	"inv_name"					"#str_107407"
+	"inv_name"					"Keyblade 3"
 
 	"gui"						"guis/weapons/nailgun_ammo.gui"
 	"gui_zoom"					"guis/weapons/nailgun_scope.gui"

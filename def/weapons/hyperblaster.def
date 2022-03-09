@@ -85,7 +85,7 @@ entityDef weapon_hyperblaster
 	"inv_weapon"				"weapon_hyperblaster"
 	"inv_item"					"1"
 	"inv_icon"					"gfx/guis/hud/icons/item_hyperblaster.tga"
-	"inv_name"					"#str_107404"	
+	"inv_name"					"Blast of Hell"	
 
 	"weaponname"				"HyperBlaster"
 	"ammoType"					"ammo_hyperblaster"
@@ -253,7 +253,7 @@ entityDef weaponmod_hyperblaster_bounce1
 	"inv_ammo_hyperblaster"		"40"
 	"inv_item"					"1"
 	"inv_icon"					"gfx/guis/hud/icons/item_hyperblaster.tga"
-	"inv_name"					"#str_107432"
+	"inv_name"					"Blast of Hell"
 	"model"						"models/items/ammo/ammo_box.lwo"
 
 	"net_syncPhysics"			"1"

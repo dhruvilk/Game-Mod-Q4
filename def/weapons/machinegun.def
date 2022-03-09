@@ -90,10 +90,10 @@ entityDef weapon_machinegun
 	"inv_start_ammo_machinegun"		"60" // was 40 doron
 	"inv_item"					"1"
 	"inv_icon"					"gfx/guis/hud/icons/item_machinegun.tga"
-	"inv_name"					"#str_107406"
+	"inv_name"					"Keyblade 0"
 
-	"fireRate"					".06" // was 0.1 doron
-	"spread"					"2"
+	"fireRate"					".6" // was 0.1 doron
+	"spread"					"5"
 
 	"mtr_crosshair"				"gfx/guis/crosshairs/crosshair_machinegun"
 	"def_hitscan"				"hitscan_bullet"
@@ -252,12 +252,12 @@ entityDef wpmod_machinegun_ammo
 	"mod_showsurface"			"models/weapons/machinegun/clip_large"
 	"mod_hidesurface"			"models/weapons/machinegun/clip_small"
 
-	"clipSize"					"80"
+	"clipSize"					"800"
 }
 
 entityDef weaponmod_machinegun_ammo
 {
-	"editor_color"				".3 .3 1"
+	"editor_color"				".9 .3 1"
 	"editor_mins"				"-16 -16 0"
 	"editor_maxs"				"16 16 32"
 
@@ -270,7 +270,7 @@ entityDef weaponmod_machinegun_ammo
 	"inv_ammo_machinegun"		"120"
 	"inv_item"					"1"
 	"inv_icon"					"gfx/guis/hud/icons/item_machinegun.tga"
-	"inv_name"					"#str_107435"
+	"inv_name"					"Keyblade 0"
 
 	"model"						"models/items/ammo/ammo_box.lwo"
 }

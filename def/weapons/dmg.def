@@ -100,7 +100,7 @@ entityDef weapon_dmg
 	"inv_start_ammo_dmg"		"25"
 	"inv_item"					"1"
 	"inv_icon"					"gfx/guis/hud/icons/item_darkmatter.tga"
-	"inv_name"					"#str_107401"	
+	"inv_name"					"Dark Matter Orb Spell"	
 
 	"weaponname"				"Dark Matter Gun"
 	"def_projectile"			"projectile_dmg"
