@@ -18,3 +18,5 @@ The specific deliverables are:
 3) experience gaining (dnd style)
 4) addition of equipable items (5ish)
 5) make encounters go to separate screen and then when done go back to normal gameplay. 
+
+/* The names of the weapons can be changed in the definition files. Changing inv_name will change the name to whatever you want it to be */
