@@ -1,0 +1,4 @@
+"Autosave game/airdefense2"
+"^:Map Start	^0AIR DEFENSE TRENCHES"
+"gfx/guis/loadscreens/airdefense"
+nooverwrite

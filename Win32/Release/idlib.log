@@ -1,0 +1,659 @@
+﻿  Lib.cpp
+C:\git\Game-Mod-Q4\idlib\Lib.h(120,41): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\math\Random.h(35,46): warning C4458: declaration of 'seed' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Random.h(28,10): message : see declaration of 'idRandom::seed'
+C:\git\Game-Mod-Q4\idlib\math\Random.h(97,57): warning C4458: declaration of 'seed' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Random.h(87,18): message : see declaration of 'idRandom2::seed'
+C:\git\Game-Mod-Q4\idlib\math\Complex.h(82,63): warning C4458: declaration of 'r' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Complex.h(15,11): message : see declaration of 'idComplex::r'
+C:\git\Game-Mod-Q4\idlib\math\Complex.h(82,63): warning C4458: declaration of 'i' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Complex.h(16,11): message : see declaration of 'idComplex::i'
+C:\git\Game-Mod-Q4\idlib\math\Vector.h(101,60): warning C4458: declaration of 'x' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Vector.h(31,10): message : see declaration of 'idVec2::x'
+C:\git\Game-Mod-Q4\idlib\math\Vector.h(101,60): warning C4458: declaration of 'y' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Vector.h(32,10): message : see declaration of 'idVec2::y'
+C:\git\Game-Mod-Q4\idlib\math\Vector.h(600,75): warning C4458: declaration of 'x' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Vector.h(328,10): message : see declaration of 'idVec3::x'
+C:\git\Game-Mod-Q4\idlib\math\Vector.h(600,75): warning C4458: declaration of 'y' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Vector.h(329,10): message : see declaration of 'idVec3::y'
+C:\git\Game-Mod-Q4\idlib\math\Vector.h(600,75): warning C4458: declaration of 'z' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Vector.h(330,10): message : see declaration of 'idVec3::z'
+C:\git\Game-Mod-Q4\idlib\math\Vector.h(1220,90): warning C4458: declaration of 'x' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Vector.h(1140,10): message : see declaration of 'idVec4::x'
+C:\git\Game-Mod-Q4\idlib\math\Vector.h(1220,90): warning C4458: declaration of 'y' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Vector.h(1141,10): message : see declaration of 'idVec4::y'
+C:\git\Game-Mod-Q4\idlib\math\Vector.h(1220,90): warning C4458: declaration of 'z' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Vector.h(1142,10): message : see declaration of 'idVec4::z'
+C:\git\Game-Mod-Q4\idlib\math\Vector.h(1220,90): warning C4458: declaration of 'w' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Vector.h(1143,10): message : see declaration of 'idVec4::w'
+C:\git\Game-Mod-Q4\idlib\math\Vector.h(2443,88): warning C4458: declaration of 'radius' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Vector.h(2418,10): message : see declaration of 'idPolar3::radius'
+C:\git\Game-Mod-Q4\idlib\math\Vector.h(2443,88): warning C4458: declaration of 'theta' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Vector.h(2418,18): message : see declaration of 'idPolar3::theta'
+C:\git\Game-Mod-Q4\idlib\math\Vector.h(2443,88): warning C4458: declaration of 'phi' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Vector.h(2418,25): message : see declaration of 'idPolar3::phi'
+C:\git\Game-Mod-Q4\idlib\math\Angles.h(110,68): warning C4458: declaration of 'pitch' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Angles.h(30,10): message : see declaration of 'idAngles::pitch'
+C:\git\Game-Mod-Q4\idlib\math\Angles.h(110,68): warning C4458: declaration of 'yaw' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Angles.h(31,10): message : see declaration of 'idAngles::yaw'
+C:\git\Game-Mod-Q4\idlib\math\Angles.h(110,68): warning C4458: declaration of 'roll' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Angles.h(32,10): message : see declaration of 'idAngles::roll'
+C:\git\Game-Mod-Q4\idlib\math\Quat.h(221,66): warning C4458: declaration of 'x' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Quat.h(23,10): message : see declaration of 'idQuat::x'
+C:\git\Game-Mod-Q4\idlib\math\Quat.h(221,66): warning C4458: declaration of 'y' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Quat.h(24,10): message : see declaration of 'idQuat::y'
+C:\git\Game-Mod-Q4\idlib\math\Quat.h(221,66): warning C4458: declaration of 'z' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Quat.h(25,10): message : see declaration of 'idQuat::z'
+C:\git\Game-Mod-Q4\idlib\math\Quat.h(221,66): warning C4458: declaration of 'w' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Quat.h(26,10): message : see declaration of 'idQuat::w'
+C:\git\Game-Mod-Q4\idlib\math\Quat.h(320,58): warning C4458: declaration of 'x' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Quat.h(282,10): message : see declaration of 'idCQuat::x'
+C:\git\Game-Mod-Q4\idlib\math\Quat.h(320,58): warning C4458: declaration of 'y' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Quat.h(283,10): message : see declaration of 'idCQuat::y'
+C:\git\Game-Mod-Q4\idlib\math\Quat.h(320,58): warning C4458: declaration of 'z' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Quat.h(284,10): message : see declaration of 'idCQuat::z'
+C:\git\Game-Mod-Q4\idlib\math\Radians.h(89,37): warning C4458: declaration of 'pitch' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Radians.h(28,10): message : see declaration of 'rvAngles::pitch'
+C:\git\Game-Mod-Q4\idlib\math\Radians.h(89,50): warning C4458: declaration of 'yaw' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Radians.h(29,10): message : see declaration of 'rvAngles::yaw'
+C:\git\Game-Mod-Q4\idlib\math\Radians.h(89,61): warning C4458: declaration of 'roll' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Radians.h(30,10): message : see declaration of 'rvAngles::roll'
+C:\git\Game-Mod-Q4\idlib\bv\Frustum.h(125,61): warning C4458: declaration of 'origin' hides class member
+C:\git\Game-Mod-Q4\idlib\bv\Frustum.h(91,11): message : see declaration of 'idFrustum::origin'
+C:\git\Game-Mod-Q4\idlib\bv\Frustum.h(129,57): warning C4458: declaration of 'axis' hides class member
+C:\git\Game-Mod-Q4\idlib\bv\Frustum.h(92,11): message : see declaration of 'idFrustum::axis'
+C:\git\Game-Mod-Q4\idlib\bv\Frustum.h(133,86): warning C4458: declaration of 'dNear' hides class member
+C:\git\Game-Mod-Q4\idlib\bv\Frustum.h(93,10): message : see declaration of 'idFrustum::dNear'
+C:\git\Game-Mod-Q4\idlib\bv\Frustum.h(133,86): warning C4458: declaration of 'dFar' hides class member
+C:\git\Game-Mod-Q4\idlib\bv\Frustum.h(94,10): message : see declaration of 'idFrustum::dFar'
+C:\git\Game-Mod-Q4\idlib\bv\Frustum.h(133,86): warning C4458: declaration of 'dLeft' hides class member
+C:\git\Game-Mod-Q4\idlib\bv\Frustum.h(95,10): message : see declaration of 'idFrustum::dLeft'
+C:\git\Game-Mod-Q4\idlib\bv\Frustum.h(133,86): warning C4458: declaration of 'dUp' hides class member
+C:\git\Game-Mod-Q4\idlib\bv\Frustum.h(96,10): message : see declaration of 'idFrustum::dUp'
+C:\git\Game-Mod-Q4\idlib\bv\Frustum.h(142,65): warning C4458: declaration of 'dNear' hides class member
+C:\git\Game-Mod-Q4\idlib\bv\Frustum.h(93,10): message : see declaration of 'idFrustum::dNear'
+C:\git\Game-Mod-Q4\idlib\bv\Frustum.h(142,65): warning C4458: declaration of 'dFar' hides class member
+C:\git\Game-Mod-Q4\idlib\bv\Frustum.h(94,10): message : see declaration of 'idFrustum::dFar'
+C:\git\Game-Mod-Q4\idlib\bv\Frustum.h(151,59): warning C4458: declaration of 'dNear' hides class member
+C:\git\Game-Mod-Q4\idlib\bv\Frustum.h(93,10): message : see declaration of 'idFrustum::dNear'
+C:\git\Game-Mod-Q4\idlib\bv\Frustum.h(156,57): warning C4458: declaration of 'dFar' hides class member
+C:\git\Game-Mod-Q4\idlib\bv\Frustum.h(94,10): message : see declaration of 'idFrustum::dFar'
+C:\git\Game-Mod-Q4\idlib\geometry\DrawVert.h(145,52): warning C4458: declaration of 'color' hides class member
+C:\git\Game-Mod-Q4\idlib\geometry\DrawVert.h(16,9): message : see declaration of 'idDrawVert::color'
+C:\git\Game-Mod-Q4\idlib\Str.h(406,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Str.h(446,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Str.h(503,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Str.h(501,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Str.h(514,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Str.h(512,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Str.h(527,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Str.h(605,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Str.h(615,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Str.h(625,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Str.h(634,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Str.h(643,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Str.h(652,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Str.h(946,67): warning C4458: declaration of 'len' hides class member
+C:\git\Game-Mod-Q4\idlib\Str.h(357,10): message : see declaration of 'idStr::len'
+C:\git\Game-Mod-Q4\idlib\Str.h(950,68): warning C4458: declaration of 'len' hides class member
+C:\git\Game-Mod-Q4\idlib\Str.h(357,10): message : see declaration of 'idStr::len'
+C:\git\Game-Mod-Q4\idlib\Str.h(958,46): warning C4458: declaration of 'len' hides class member
+C:\git\Game-Mod-Q4\idlib\Str.h(357,10): message : see declaration of 'idStr::len'
+C:\git\Game-Mod-Q4\idlib\Str.h(962,47): warning C4458: declaration of 'len' hides class member
+C:\git\Game-Mod-Q4\idlib\Str.h(357,10): message : see declaration of 'idStr::len'
+C:\git\Game-Mod-Q4\idlib\Lexer.h(457,47): warning C4458: declaration of 'flags' hides class member
+C:\git\Game-Mod-Q4\idlib\Lexer.h(273,9): message : see declaration of 'idLexer::flags'
+C:\git\Game-Mod-Q4\idlib\Base64.h(80,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\containers\StrPool.h(74,66): warning C4458: declaration of 'caseSensitive' hides class member
+C:\git\Game-Mod-Q4\idlib\containers\StrPool.h(64,10): message : see declaration of 'idStrPool::caseSensitive'
+C:\git\Game-Mod-Q4\idlib\BitMsg.h(520,103): warning C4458: declaration of 'base' hides class member
+C:\git\Game-Mod-Q4\idlib\BitMsg.h(501,18): message : see declaration of 'idBitMsgDelta::base'
+C:\git\Game-Mod-Q4\idlib\BitMsg.h(520,103): warning C4458: declaration of 'newBase' hides class member
+C:\git\Game-Mod-Q4\idlib\BitMsg.h(502,14): message : see declaration of 'idBitMsgDelta::newBase'
+C:\git\Game-Mod-Q4\idlib\BitMsg.h(528,109): warning C4458: declaration of 'base' hides class member
+C:\git\Game-Mod-Q4\idlib\BitMsg.h(501,18): message : see declaration of 'idBitMsgDelta::base'
+C:\git\Game-Mod-Q4\idlib\BitMsg.h(528,109): warning C4458: declaration of 'newBase' hides class member
+C:\git\Game-Mod-Q4\idlib\BitMsg.h(502,14): message : see declaration of 'idBitMsgDelta::newBase'
+C:\git\Game-Mod-Q4\framework\CVarSystem.h(127,42): warning C4458: declaration of 'value' hides class member
+C:\git\Game-Mod-Q4\framework\CVarSystem.h(141,17): message : see declaration of 'idCVar::value'
+C:\git\Game-Mod-Q4\framework\CVarSystem.h(128,39): warning C4458: declaration of 'value' hides class member
+C:\git\Game-Mod-Q4\framework\CVarSystem.h(141,17): message : see declaration of 'idCVar::value'
+C:\git\Game-Mod-Q4\framework\CVarSystem.h(129,41): warning C4458: declaration of 'value' hides class member
+C:\git\Game-Mod-Q4\framework\CVarSystem.h(141,17): message : see declaration of 'idCVar::value'
+C:\git\Game-Mod-Q4\framework\CVarSystem.h(130,41): warning C4458: declaration of 'value' hides class member
+C:\git\Game-Mod-Q4\framework\CVarSystem.h(141,17): message : see declaration of 'idCVar::value'
+C:\git\Game-Mod-Q4\framework\CVarSystem.h(339,42): warning C4458: declaration of 'name' hides class member
+C:\git\Game-Mod-Q4\framework\CVarSystem.h(140,17): message : see declaration of 'idCVar::name'
+C:\git\Game-Mod-Q4\framework\CVarSystem.h(339,60): warning C4458: declaration of 'value' hides class member
+C:\git\Game-Mod-Q4\framework\CVarSystem.h(141,17): message : see declaration of 'idCVar::value'
+C:\git\Game-Mod-Q4\framework\CVarSystem.h(339,71): warning C4458: declaration of 'flags' hides class member
+C:\git\Game-Mod-Q4\framework\CVarSystem.h(143,11): message : see declaration of 'idCVar::flags'
+C:\git\Game-Mod-Q4\framework\CVarSystem.h(339,90): warning C4458: declaration of 'description' hides class member
+C:\git\Game-Mod-Q4\framework\CVarSystem.h(142,17): message : see declaration of 'idCVar::description'
+C:\git\Game-Mod-Q4\framework\CVarSystem.h(340,101): warning C4458: declaration of 'valueMin' hides class member
+C:\git\Game-Mod-Q4\framework\CVarSystem.h(144,12): message : see declaration of 'idCVar::valueMin'
+C:\git\Game-Mod-Q4\framework\CVarSystem.h(340,101): warning C4458: declaration of 'valueMax' hides class member
+C:\git\Game-Mod-Q4\framework\CVarSystem.h(145,12): message : see declaration of 'idCVar::valueMax'
+C:\git\Game-Mod-Q4\framework\CVarSystem.h(340,101): warning C4458: declaration of 'valueStrings' hides class member
+C:\git\Game-Mod-Q4\framework\CVarSystem.h(146,18): message : see declaration of 'idCVar::valueStrings'
+C:\git\Game-Mod-Q4\framework\CVarSystem.h(340,101): warning C4458: declaration of 'valueCompletion' hides class member
+C:\git\Game-Mod-Q4\framework\CVarSystem.h(147,20): message : see declaration of 'idCVar::valueCompletion'
+C:\git\Game-Mod-Q4\framework\Common.h(52,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-EDITOR_NONE>' when no variable is declared
+C:\git\Game-Mod-Q4\aas\AASFile.h(95,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-RE_WALK>' when no variable is declared
+C:\git\Game-Mod-Q4\game\Game_local.h(7,14): warning C4595: 'operator new': non-member operator new or delete functions may not be declared inline
+C:\git\Game-Mod-Q4\game\Game_local.h(8,13): warning C4595: 'operator delete': non-member operator new or delete functions may not be declared inline
+C:\git\Game-Mod-Q4\game\Game_local.h(9,14): warning C4595: 'operator new[]': non-member operator new or delete functions may not be declared inline
+C:\git\Game-Mod-Q4\game\Game_local.h(10,13): warning C4595: 'operator delete[]': non-member operator new or delete functions may not be declared inline
+C:\git\Game-Mod-Q4\game\gamesys\Class.h(466,57): warning C4458: declaration of 'superclass' hides class member
+C:\git\Game-Mod-Q4\game\gamesys\Class.h(430,18): message : see declaration of 'idTypeInfo::superclass'
+C:\git\Game-Mod-Q4\game\Game_local.h(465,86): warning C4458: declaration of 'userInfo' hides class member
+C:\git\Game-Mod-Q4\game\Game_local.h(326,13): message : see declaration of 'idGameLocal::userInfo'
+C:\git\Game-Mod-Q4\game\Game_local.h(493,206): warning C4458: declaration of 'numClients' hides class member
+C:\git\Game-Mod-Q4\game\Game_local.h(325,11): message : see declaration of 'idGameLocal::numClients'
+C:\git\Game-Mod-Q4\game\physics\Force_Field.h(44,57): warning C4458: declaration of 'type' hides class member
+C:\git\Game-Mod-Q4\game\physics\Force_Field.h(64,18): message : see declaration of 'idForce_Field::type'
+C:\git\Game-Mod-Q4\game\physics\Physics_AF.h(353,39): warning C4458: declaration of 'e' hides class member
+C:\git\Game-Mod-Q4\game\physics\Physics_AF.h(98,21): message : see declaration of 'idAFConstraint::e'
+C:\git\Game-Mod-Q4\game\physics\Physics_AF.h(517,39): warning C4458: declaration of 'e' hides class member
+C:\git\Game-Mod-Q4\game\physics\Physics_AF.h(98,21): message : see declaration of 'idAFConstraint::e'
+C:\git\Game-Mod-Q4\game\physics\Physics_AF.h(549,39): warning C4458: declaration of 'e' hides class member
+C:\git\Game-Mod-Q4\game\physics\Physics_AF.h(98,21): message : see declaration of 'idAFConstraint::e'
+C:\git\Game-Mod-Q4\game\script\Script_Interpreter.h(151,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\game\script\Script_Interpreter.h(153,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\math\Interpolate.h(108,91): warning C4458: declaration of 'startTime' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Interpolate.h(42,11): message : see declaration of 'idInterpolate<idQuat>::startTime'
+C:\git\Game-Mod-Q4\idlib\math\Interpolate.h(108): message : while compiling class template member function 'type idInterpolate<type>::GetDeltaValue(float,float) const'
+          with
+          [
+              type=idQuat
+          ]
+C:\git\Game-Mod-Q4\idlib\math\Interpolate.h(128): message : see reference to class template instantiation 'idInterpolate<idQuat>' being compiled
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(1913,103): warning C4458: declaration of 'order' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(1807,10): message : see declaration of 'idCurve_BSpline<type>::order'
+          with
+          [
+              type=idVec3
+          ]
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(1913): message : while compiling class template member function 'float idCurve_BSpline<type>::Basis(const int,const int,const float) const'
+          with
+          [
+              type=idVec3
+          ]
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(1846): message : see reference to function template instantiation 'float idCurve_BSpline<type>::Basis(const int,const int,const float) const' being compiled
+          with
+          [
+              type=idVec3
+          ]
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(1832): message : while compiling class template member function 'type idCurve_BSpline<type>::GetCurrentValue(const float) const'
+          with
+          [
+              type=idVec3
+          ]
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(1971): message : see reference to class template instantiation 'idCurve_BSpline<type>' being compiled
+          with
+          [
+              type=idVec3
+          ]
+C:\git\Game-Mod-Q4\framework\declPlayback.h(168): message : see reference to class template instantiation 'idCurve_UniformCubicBSpline<idVec3>' being compiled
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(1943,118): warning C4458: declaration of 'order' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(1807,10): message : see declaration of 'idCurve_BSpline<type>::order'
+          with
+          [
+              type=idVec3
+          ]
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(1943): message : while compiling class template member function 'float idCurve_BSpline<type>::BasisFirstDerivative(const int,const int,const float) const'
+          with
+          [
+              type=idVec3
+          ]
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(1873): message : see reference to function template instantiation 'float idCurve_BSpline<type>::BasisFirstDerivative(const int,const int,const float) const' being compiled
+          with
+          [
+              type=idVec3
+          ]
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(1956,119): warning C4458: declaration of 'order' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(1807,10): message : see declaration of 'idCurve_BSpline<type>::order'
+          with
+          [
+              type=idVec3
+          ]
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(1956): message : while compiling class template member function 'float idCurve_BSpline<type>::BasisSecondDerivative(const int,const int,const float) const'
+          with
+          [
+              type=idVec3
+          ]
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(1900): message : see reference to function template instantiation 'float idCurve_BSpline<type>::BasisSecondDerivative(const int,const int,const float) const' being compiled
+          with
+          [
+              type=idVec3
+          ]
+  Base64.cpp
+  BitMsg.cpp
+  Bounds.cpp
+  Box.cpp
+  Frustum.cpp
+C:\git\Game-Mod-Q4\idlib\bv\Frustum.cpp(1177,108): warning C4458: declaration of 'dFar' hides class member
+C:\git\Game-Mod-Q4\idlib\bv\Frustum.h(94,10): message : see declaration of 'idFrustum::dFar'
+C:\git\Game-Mod-Q4\idlib\bv\Frustum.cpp(1188,102): warning C4458: declaration of 'dFar' hides class member
+C:\git\Game-Mod-Q4\idlib\bv\Frustum.h(94,10): message : see declaration of 'idFrustum::dFar'
+C:\git\Game-Mod-Q4\idlib\bv\Frustum.cpp(1349,108): warning C4458: declaration of 'dFar' hides class member
+C:\git\Game-Mod-Q4\idlib\bv\Frustum.h(94,10): message : see declaration of 'idFrustum::dFar'
+  Sphere.cpp
+  CmdArgs.cpp
+C:\git\Game-Mod-Q4\idlib\CmdArgs.cpp(36,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\CmdArgs.cpp(41,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\CmdArgs.cpp(43,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\CmdArgs.cpp(50,6): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\CmdArgs.cpp(59,4): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\CmdArgs.cpp(63,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  HashIndex.cpp
+  Dict.cpp
+C:\git\Game-Mod-Q4\idlib\Dict.cpp(338,2): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Dict.cpp(357,2): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Dict.cpp(376,2): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Dict.cpp(395,2): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Dict.cpp(414,2): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  JointTransform.cpp
+  Surface.cpp
+  Surface_Patch.cpp
+C:\git\Game-Mod-Q4\idlib\geometry\Surface_Patch.cpp(450,163): warning C4458: declaration of 'width' hides class member
+C:\git\Game-Mod-Q4\idlib\geometry\Surface_Patch.h(31,10): message : see declaration of 'idSurface_Patch::width'
+  Surface_Polytope.cpp
+  Surface_SweptSpline.cpp
+C:\git\Game-Mod-Q4\idlib\geometry\Surface_SweptSpline.cpp(11,73): warning C4458: declaration of 'spline' hides class member
+C:\git\Game-Mod-Q4\idlib\geometry\Surface_SweptSpline.h(27,26): message : see declaration of 'idSurface_SweptSpline::spline'
+C:\git\Game-Mod-Q4\idlib\geometry\Surface_SweptSpline.cpp(23,83): warning C4458: declaration of 'sweptSpline' hides class member
+C:\git\Game-Mod-Q4\idlib\geometry\Surface_SweptSpline.h(28,26): message : see declaration of 'idSurface_SweptSpline::sweptSpline'
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(2261,126): warning C4458: declaration of 'order' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(1807,10): message : see declaration of 'idCurve_BSpline<type>::order'
+          with
+          [
+              type=idVec4
+          ]
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(2261): message : while compiling class template member function 'void idCurve_NonUniformBSpline<type>::Basis(const int,const int,const float,float *) const'
+          with
+          [
+              type=idVec4
+          ]
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(2448): message : see reference to function template instantiation 'void idCurve_NonUniformBSpline<type>::Basis(const int,const int,const float,float *) const' being compiled
+          with
+          [
+              type=idVec4
+          ]
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(2386): message : while compiling class template member function 'idCurve_NURBS<idVec4>::idCurve_NURBS(void)'
+C:\git\Game-Mod-Q4\idlib\geometry\Surface_SweptSpline.cpp(38): message : see reference to function template instantiation 'idCurve_NURBS<idVec4>::idCurve_NURBS(void)' being compiled
+C:\git\Game-Mod-Q4\idlib\geometry\Surface_SweptSpline.cpp(38): message : see reference to class template instantiation 'idCurve_NURBS<idVec4>' being compiled
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(2286,141): warning C4458: declaration of 'order' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(1807,10): message : see declaration of 'idCurve_BSpline<type>::order'
+          with
+          [
+              type=idVec4
+          ]
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(2286): message : while compiling class template member function 'void idCurve_NonUniformBSpline<type>::BasisFirstDerivative(const int,const int,const float,float *) const'
+          with
+          [
+              type=idVec4
+          ]
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(2483): message : see reference to function template instantiation 'void idCurve_NonUniformBSpline<type>::BasisFirstDerivative(const int,const int,const float,float *) const' being compiled
+          with
+          [
+              type=idVec4
+          ]
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(2306,142): warning C4458: declaration of 'order' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(1807,10): message : see declaration of 'idCurve_BSpline<type>::order'
+          with
+          [
+              type=idVec4
+          ]
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(2306): message : while compiling class template member function 'void idCurve_NonUniformBSpline<type>::BasisSecondDerivative(const int,const int,const float,float *) const'
+          with
+          [
+              type=idVec4
+          ]
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(2525): message : see reference to function template instantiation 'void idCurve_NonUniformBSpline<type>::BasisSecondDerivative(const int,const int,const float,float *) const' being compiled
+          with
+          [
+              type=idVec4
+          ]
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(1913,103): warning C4458: declaration of 'order' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(1807,10): message : see declaration of 'idCurve_BSpline<type>::order'
+          with
+          [
+              type=idVec4
+          ]
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(1913): message : while compiling class template member function 'float idCurve_BSpline<type>::Basis(const int,const int,const float) const'
+          with
+          [
+              type=idVec4
+          ]
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(1846): message : see reference to function template instantiation 'float idCurve_BSpline<type>::Basis(const int,const int,const float) const' being compiled
+          with
+          [
+              type=idVec4
+          ]
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(1832): message : while compiling class template member function 'type idCurve_BSpline<type>::GetCurrentValue(const float) const'
+          with
+          [
+              type=idVec4
+          ]
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(2139): message : see reference to class template instantiation 'idCurve_BSpline<type>' being compiled
+          with
+          [
+              type=idVec4
+          ]
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(2361): message : see reference to class template instantiation 'idCurve_NonUniformBSpline<type>' being compiled
+          with
+          [
+              type=idVec4
+          ]
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(1943,118): warning C4458: declaration of 'order' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(1807,10): message : see declaration of 'idCurve_BSpline<type>::order'
+          with
+          [
+              type=idVec4
+          ]
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(1943): message : while compiling class template member function 'float idCurve_BSpline<type>::BasisFirstDerivative(const int,const int,const float) const'
+          with
+          [
+              type=idVec4
+          ]
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(1873): message : see reference to function template instantiation 'float idCurve_BSpline<type>::BasisFirstDerivative(const int,const int,const float) const' being compiled
+          with
+          [
+              type=idVec4
+          ]
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(1956,119): warning C4458: declaration of 'order' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(1807,10): message : see declaration of 'idCurve_BSpline<type>::order'
+          with
+          [
+              type=idVec4
+          ]
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(1956): message : while compiling class template member function 'float idCurve_BSpline<type>::BasisSecondDerivative(const int,const int,const float) const'
+          with
+          [
+              type=idVec4
+          ]
+C:\git\Game-Mod-Q4\idlib\math\Curve.h(1900): message : see reference to function template instantiation 'float idCurve_BSpline<type>::BasisSecondDerivative(const int,const int,const float) const' being compiled
+          with
+          [
+              type=idVec4
+          ]
+  TraceModel.cpp
+C:\git\Game-Mod-Q4\idlib\geometry\TraceModel.cpp(899,15): warning C4458: declaration of 'verts' hides class member
+C:\git\Game-Mod-Q4\idlib\geometry\TraceModel.h(61,19): message : see declaration of 'idTraceModel::verts'
+  Winding.cpp
+  Winding2D.cpp
+  CRC16.cpp
+  CRC32.cpp
+  CRC8.cpp
+  Generating Code...
+  Compiling...
+  Honeyman.cpp
+  MD4.cpp
+  MD5.cpp
+  Heap.cpp
+C:\git\Game-Mod-Q4\idlib\Heap.cpp(1639,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  LangDict.cpp
+  Lexer.cpp
+C:\git\Game-Mod-Q4\idlib\Lexer.cpp(512,75): warning C4458: declaration of 'punctuations' hides class member
+C:\git\Game-Mod-Q4\idlib\Lexer.h(274,23): message : see declaration of 'idLexer::punctuations'
+C:\git\Game-Mod-Q4\idlib\Lexer.cpp(625,2): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Lexer.cpp(649,2): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Lexer.cpp(837,54): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Lexer.h(277,12): message : see declaration of 'idLexer::token'
+C:\git\Game-Mod-Q4\idlib\Lexer.cpp(935,41): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Lexer.h(277,12): message : see declaration of 'idLexer::token'
+C:\git\Game-Mod-Q4\idlib\Lexer.cpp(976,43): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Lexer.h(277,12): message : see declaration of 'idLexer::token'
+C:\git\Game-Mod-Q4\idlib\Lexer.cpp(1175,48): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Lexer.h(277,12): message : see declaration of 'idLexer::token'
+C:\git\Game-Mod-Q4\idlib\Lexer.cpp(1220,42): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Lexer.h(277,12): message : see declaration of 'idLexer::token'
+C:\git\Game-Mod-Q4\idlib\Lexer.cpp(1334,15): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Lexer.h(277,12): message : see declaration of 'idLexer::token'
+C:\git\Game-Mod-Q4\idlib\Lexer.cpp(1352,71): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Lexer.h(277,12): message : see declaration of 'idLexer::token'
+C:\git\Game-Mod-Q4\idlib\Lexer.cpp(1406,47): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Lexer.h(277,12): message : see declaration of 'idLexer::token'
+C:\git\Game-Mod-Q4\idlib\Lexer.cpp(1442,70): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Lexer.h(277,12): message : see declaration of 'idLexer::token'
+C:\git\Game-Mod-Q4\idlib\Lexer.cpp(1465,15): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Lexer.h(277,12): message : see declaration of 'idLexer::token'
+C:\git\Game-Mod-Q4\idlib\Lexer.cpp(1481,15): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Lexer.h(277,12): message : see declaration of 'idLexer::token'
+C:\git\Game-Mod-Q4\idlib\Lexer.cpp(1502,15): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Lexer.h(277,12): message : see declaration of 'idLexer::token'
+C:\git\Game-Mod-Q4\idlib\Lexer.cpp(1526,51): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Lexer.h(277,12): message : see declaration of 'idLexer::token'
+C:\git\Game-Mod-Q4\idlib\Lexer.cpp(1539,48): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Lexer.h(277,12): message : see declaration of 'idLexer::token'
+C:\git\Game-Mod-Q4\idlib\Lexer.cpp(1595,15): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Lexer.h(277,12): message : see declaration of 'idLexer::token'
+C:\git\Game-Mod-Q4\idlib\Lexer.cpp(1617,15): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Lexer.h(277,12): message : see declaration of 'idLexer::token'
+C:\git\Game-Mod-Q4\idlib\Lexer.cpp(1632,15): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Lexer.h(277,12): message : see declaration of 'idLexer::token'
+C:\git\Game-Mod-Q4\idlib\Lexer.cpp(1884,15): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Lexer.h(277,12): message : see declaration of 'idLexer::token'
+C:\git\Game-Mod-Q4\idlib\Lexer.cpp(1933,15): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Lexer.h(277,12): message : see declaration of 'idLexer::token'
+C:\git\Game-Mod-Q4\idlib\Lexer.cpp(2027,60): warning C4458: declaration of 'filename' hides class member
+C:\git\Game-Mod-Q4\idlib\Lexer.h(260,10): message : see declaration of 'idLexer::filename'
+C:\git\Game-Mod-Q4\idlib\Lexer.cpp(2030,12): warning C4458: declaration of 'length' hides class member
+C:\git\Game-Mod-Q4\idlib\Lexer.h(269,9): message : see declaration of 'idLexer::length'
+C:\git\Game-Mod-Q4\idlib\Lexer.cpp(2101,89): warning C4458: declaration of 'length' hides class member
+C:\git\Game-Mod-Q4\idlib\Lexer.h(269,9): message : see declaration of 'idLexer::length'
+C:\git\Game-Mod-Q4\idlib\Lexer.cpp(2750,2): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Lexer.cpp(2761,2): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  LexerFactory.cpp
+  mapfile.cpp
+C:\git\Game-Mod-Q4\idlib\mapfile.cpp(726,5): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\mapfile.cpp(1084,56): warning C4458: declaration of 'name' hides class member
+C:\git\Game-Mod-Q4\idlib\MapFile.h(238,12): message : see declaration of 'idMapFile::name'
+C:\git\Game-Mod-Q4\idlib\mapfile.cpp(1197,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\mapfile.cpp(1265,22): warning C4456: declaration of 'mapEnt' hides previous local declaration
+C:\git\Game-Mod-Q4\idlib\mapfile.cpp(1224,15): message : see declaration of 'mapEnt'
+C:\git\Game-Mod-Q4\idlib\mapfile.cpp(1266,19): warning C4458: declaration of 'name' hides class member
+C:\git\Game-Mod-Q4\idlib\MapFile.h(238,12): message : see declaration of 'idMapFile::name'
+C:\git\Game-Mod-Q4\idlib\mapfile.cpp(1307,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Angles.cpp
+  Complex.cpp
+  FFT.cpp
+  Lcp.cpp
+C:\git\Game-Mod-Q4\idlib\math\Lcp.cpp(95,62): warning C4458: declaration of 'b' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Lcp.cpp(26,11): message : see declaration of 'idLCP_Square::b'
+C:\git\Game-Mod-Q4\idlib\math\Lcp.cpp(833,65): warning C4458: declaration of 'b' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Lcp.cpp(783,11): message : see declaration of 'idLCP_Symmetric::b'
+  Math.cpp
+  Matrix.cpp
+C:\git\Game-Mod-Q4\idlib\math\Matrix.cpp(1072,15): warning C4458: declaration of 'mat' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Matrix.h(862,11): message : see declaration of 'idMat4::mat'
+C:\git\Game-Mod-Q4\idlib\math\Matrix.cpp(1743,15): warning C4458: declaration of 'mat' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Matrix.h(1243,11): message : see declaration of 'idMat5::mat'
+C:\git\Game-Mod-Q4\idlib\math\Matrix.cpp(2890,15): warning C4458: declaration of 'mat' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Matrix.h(1548,11): message : see declaration of 'idMat6::mat'
+C:\git\Game-Mod-Q4\idlib\math\Matrix.cpp(6755,2): warning C4456: declaration of 'm' hides previous local declaration
+C:\git\Game-Mod-Q4\idlib\math\Matrix.cpp(6696,12): message : see declaration of 'm'
+  Ode.cpp
+  Plane.cpp
+  Pluecker.cpp
+  Polynomial.cpp
+C:\git\Game-Mod-Q4\idlib\math\Polynomial.cpp(12,89): warning C4458: declaration of 'degree' hides class member
+C:\git\Game-Mod-Q4\idlib\math\Polynomial.h(69,9): message : see declaration of 'idPolynomial::degree'
+  Quat.cpp
+  Radians.cpp
+  Generating Code...
+C:\git\Game-Mod-Q4\idlib\math\Matrix.cpp(3782): warning C4750: 'class idMatX & __thiscall idMatX::SwapRows(int,int)': function with _alloca() inlined into a loop
+C:\git\Game-Mod-Q4\idlib\math\Lcp.cpp(640): warning C4750: 'void __thiscall idLCP_Square::CalcForceDelta(int,float)': function with _alloca() inlined into a loop
+  Compiling...
+  Rotation.cpp
+  Simd.cpp
+  Simd_3DNow.cpp
+  Simd_generic.cpp
+  Simd_MMX.cpp
+  Simd_SSE.cpp
+  Simd_SSE2.cpp
+  Simd_SSE3.cpp
+  Vector.cpp
+  Parser.cpp
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(143,75): warning C4458: declaration of 'definehash' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(160,15): message : see declaration of 'idParser::definehash'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(156,81): warning C4458: declaration of 'definehash' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(160,15): message : see declaration of 'idParser::definehash'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(211,16): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(218,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(301,2): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(318,2): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(330,49): warning C4458: declaration of 'skip' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(162,9): message : see declaration of 'idParser::skip'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(350,50): warning C4458: declaration of 'skip' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(162,9): message : see declaration of 'idParser::skip'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(395,49): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(398,16): warning C4458: declaration of 'skip' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(162,9): message : see declaration of 'idParser::skip'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(449,51): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(465,15): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(559,66): warning C4458: declaration of 'tokens' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(158,13): message : see declaration of 'idParser::tokens'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(559,66): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(626,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(659,16): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(667,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(693,14): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(712,14): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(749,49): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(897,42): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(922,15): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(1007,15): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(1051,15): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(1084,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(1201,15): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(1203,10): warning C4458: declaration of 'skip' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(162,9): message : see declaration of 'idParser::skip'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(1244,16): warning C4458: declaration of 'skip' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(162,9): message : see declaration of 'idParser::skip'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(1265,16): warning C4458: declaration of 'skip' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(162,9): message : see declaration of 'idParser::skip'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(1361,109): warning C4458: declaration of 'tokens' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(158,13): message : see declaration of 'idParser::tokens'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(1787,15): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(1879,15): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(1980,16): warning C4458: declaration of 'skip' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(162,9): message : see declaration of 'idParser::skip'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(2002,10): warning C4458: declaration of 'skip' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(162,9): message : see declaration of 'idParser::skip'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(2018,15): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(2032,15): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(2048,15): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(2064,15): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(2078,15): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(2098,15): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(2110,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(2128,15): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(2140,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(2157,15): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(2237,15): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(2249,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(2269,15): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(2281,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(2300,15): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(2331,43): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(2396,15): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(2415,72): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(2469,48): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(2504,71): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(2526,15): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(2542,15): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(2562,15): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(2606,15): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(2674,15): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(2695,46): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(2704,49): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(2726,15): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(2748,15): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(2763,15): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(2900,16): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(2942,38): warning C4458: declaration of 'flags' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(156,9): message : see declaration of 'idParser::flags'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(2965,61): warning C4458: declaration of 'filename' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(152,10): message : see declaration of 'idParser::filename'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(2965,61): warning C4458: declaration of 'OSPath' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(154,9): message : see declaration of 'idParser::OSPath'
+C:\git\Game-Mod-Q4\idlib\Parser.cpp(3044,16): warning C4458: declaration of 'token' hides class member
+C:\git\Game-Mod-Q4\idlib\Parser.h(163,12): message : see declaration of 'idParser::token'
+  rvHeap.cpp
+  rvHeapArena.cpp
+  rvMemSys.cpp
+  Str.cpp
+C:\git\Game-Mod-Q4\idlib\Str.cpp(217,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Str.cpp(298,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Str.cpp(739,67): warning C4458: declaration of 'len' hides class member
+C:\git\Game-Mod-Q4\idlib\Str.h(357,10): message : see declaration of 'idStr::len'
+C:\git\Game-Mod-Q4\idlib\Str.cpp(762,46): warning C4458: declaration of 'len' hides class member
+C:\git\Game-Mod-Q4\idlib\Str.h(357,10): message : see declaration of 'idStr::len'
+C:\git\Game-Mod-Q4\idlib\Str.cpp(1685,2): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Str.cpp(1849,8): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Str.cpp(1885,8): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\Str.cpp(1959,2): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  TextCompiler.cpp
+  Timer.cpp
+  TimingCollection.cpp
+C:\git\Game-Mod-Q4\idlib\TimingCollection.cpp(76,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\TimingCollection.cpp(92,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\TimingCollection.cpp(95,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\TimingCollection.cpp(200,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\TimingCollection.cpp(203,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\TimingCollection.cpp(212,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\Game-Mod-Q4\idlib\TimingCollection.cpp(217,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Token.cpp
+  Generating Code...
+C:\git\Game-Mod-Q4\idlib\math\Simd_SSE.cpp(2737): warning C4740: flow in or out of inline asm code suppresses global optimization
+C:\git\Game-Mod-Q4\idlib\math\Simd_SSE.cpp(2748): warning C4740: flow in or out of inline asm code suppresses global optimization
+C:\git\Game-Mod-Q4\idlib\math\Simd_SSE.cpp(2759): warning C4740: flow in or out of inline asm code suppresses global optimization
+C:\git\Game-Mod-Q4\idlib\math\Simd_SSE.cpp(2770): warning C4740: flow in or out of inline asm code suppresses global optimization
+C:\git\Game-Mod-Q4\idlib\math\Simd_SSE.cpp(2781): warning C4740: flow in or out of inline asm code suppresses global optimization
+C:\git\Game-Mod-Q4\idlib\math\Simd_SSE.cpp(2792): warning C4740: flow in or out of inline asm code suppresses global optimization
+C:\git\Game-Mod-Q4\idlib\math\Simd_SSE.cpp(2803): warning C4740: flow in or out of inline asm code suppresses global optimization
+C:\git\Game-Mod-Q4\idlib\math\Simd_SSE.cpp(2814): warning C4740: flow in or out of inline asm code suppresses global optimization
+  idlib.vcxproj -> C:\git\Win32\Release\idLib.lib
