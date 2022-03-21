@@ -10,7 +10,7 @@ The common deliverables are as follows:
 3) A README.md file in your github repository explaining what your mod is, what has been, and HOW to test each deliverable /* duh this is github */
 4) Modified Main Menu /* made the main menu color themes to match that of Kingdom Hearts 30th anniversary poster */
 5) Modified Heads Up Display (HUD) to reflect a key feature of your mod /* hud shows experience and leveling */
-6) An In-Game Help screen explaining your mod changes /* text on main menu to show how to work mod */
+6) An In-Game Help screen explaining your mod changes
 
 The specific deliverables are: 
 1) a couple of companion AI's (goofy&donald or sora)
