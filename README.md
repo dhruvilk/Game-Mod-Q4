@@ -27,4 +27,3 @@ Done:
 - Mod main
 - Mod hud (shows XP)
 - Exp (experience and leveling are tracked)
-- In game help menu showed on main menu
